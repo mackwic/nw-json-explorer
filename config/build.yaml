@@ -1,4 +1,7 @@
 ---
+node_webkit:
+  path: node_modules/nw/bin/nw
+
 karma:
   options:
     - auto-watch
@@ -44,9 +47,11 @@ vendor:
   - angular
   - angular-animate
   - angular-sanitize
+  - angular-route
   - ui-bootstrap:
       files: ['src/accordion/accordion.js','src/alert/alert.js','src/bindHtml/bindHtml.js','src/buttons/buttons.js','src/carousel/carousel.js','src/collapse/collapse.js','src/dateparser/dateparser.js','src/datepicker/datepicker.js','src/dropdown/dropdown.js','src/modal/modal.js','src/pagination/pagination.js','src/popover/popover.js','src/position/position.js','src/progressbar/progressbar.js','src/rating/rating.js','src/tabs/tabs.js','src/timepicker/timepicker.js','src/tooltip/tooltip.js','src/transition/transition.js','src/typeahead/typeahead.js']
   - angular-bindonce
+  - ng-json-explorer
 
 node_vendor:
   - bindings

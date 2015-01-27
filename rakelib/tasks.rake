@@ -75,7 +75,7 @@ namespace :build do
   end
 
   desc 'Build app/index.html from src/skel.slim injecting scripts'
-  task :html => 'build:inject_userinfo' do
+  task :html do
     require 'json'
 
     css_vendor = []

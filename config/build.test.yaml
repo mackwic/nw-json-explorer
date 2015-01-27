@@ -1,0 +1,13 @@
+---
+karma:
+  options:
+    - no-auto-watch
+    - single-run
+    - report-slower-than 50
+    - capture-timeout 10000
+coffeelint:
+  options:
+    - file config/coffeelint.json
+    - nocolor
+config:
+  database_path: 'path_resolve:~/.feetme'

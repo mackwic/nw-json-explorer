@@ -1,0 +1,4 @@
+---
+node_webkit:
+  path: node_modules/karma-nodewebkit-launcher/node_modules/nodewebkit/nodewebkit/nw
+

@@ -10,10 +10,11 @@
     "angular-bindonce": "~0.3.1",
     "ui-bootstrap": "~0.11.0",
     "bootstrap-sass-official": "~3.1.0",
-    "fontawesome": "~4.2.0"
+    "fontawesome": "~4.2.0",
+    "angular-route": "1.2.25",
+    "ng-json-explorer": "*"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "resolutions": {
     "angular": "1.2.25"
   }
