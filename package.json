@@ -1,5 +1,5 @@
 {
-  "name": "feetme",
+  "name": "nw-json-explorer",
   "version": "0.3.0",
   "dependencies": {
     "bindings": "^1.2.1",

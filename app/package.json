@@ -1,0 +1,29 @@
+{
+  "repository": {
+    "url": "git://github.com/mackwic/nw-json-explorer.git",
+    "type": "git"
+  },
+  "window": {
+    "icon": "images/icon.png",
+    "toolbar": true,
+    "frame": true,
+    "fullscreen": false,
+    "kiosk": false,
+    "height": 700,
+    "width": 1024,
+    "min_height": 600,
+    "min_width": 962,
+    "title": "JSON explorer",
+    "resizable": true
+  },
+  "version": "0.5.0",
+  "dependencies": {
+  },
+  "name": "nw-json-explorer",
+  "bugs": {
+    "url": "https://github.com/mackwic/nw-json-explorer/issues"
+  },
+  "description": "A simple JSON explorer",
+  "main": "index.html",
+  "homepage": "https://github.com/mackwic/nw-json-explorer"
+}

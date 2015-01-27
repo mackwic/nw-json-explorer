@@ -1,5 +1,5 @@
 {
-  "name": "feetme",
+  "name": "nw-json-explorer",
   "version": "0.0.0",
   "dependencies": {
     "sugar": "~1.4.1",
