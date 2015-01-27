@@ -1,0 +1,62 @@
+---
+karma:
+  options:
+    - auto-watch
+    - report-slower-than 50
+slim:
+
+scss:
+  source_map: false
+  source_map_ext: '.map'
+  load_paths: [
+    'app/', 'src/', 'app/bower_components/compass-mixins/lib',
+    'app/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/'
+    ]
+coffeelint:
+  options:
+    - file config/coffeelint.json
+scss-lint:
+  options:
+    - config config/scss-lint.yaml
+
+coffeejshint:
+  options:
+    - jquery
+    - browser
+    - node
+    - freeze
+    - noarg
+    - noempty
+    - nonbsp
+    - nonew
+    - undef
+    - unused
+    - loopfunc
+  globals:
+    - _
+    - angular
+
+vendor:
+  - jquery
+  - sugar:
+      files: ['release/sugar-full.development.js']
+  - fontawesome
+  - angular
+  - angular-animate
+  - angular-sanitize
+  - ui-bootstrap:
+      files: ['src/accordion/accordion.js','src/alert/alert.js','src/bindHtml/bindHtml.js','src/buttons/buttons.js','src/carousel/carousel.js','src/collapse/collapse.js','src/dateparser/dateparser.js','src/datepicker/datepicker.js','src/dropdown/dropdown.js','src/modal/modal.js','src/pagination/pagination.js','src/popover/popover.js','src/position/position.js','src/progressbar/progressbar.js','src/rating/rating.js','src/tabs/tabs.js','src/timepicker/timepicker.js','src/tooltip/tooltip.js','src/transition/transition.js','src/typeahead/typeahead.js']
+  - angular-bindonce
+
+node_vendor:
+  - bindings
+  - bluebird
+  - collections
+  - colors
+  - eventemitter3
+  - fast-stats
+  - fs-extra
+  - generic-pool-redux
+  - lodash
+
+config: {}

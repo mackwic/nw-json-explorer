@@ -1,0 +1,20 @@
+{
+  "name": "feetme",
+  "version": "0.0.0",
+  "dependencies": {
+    "sugar": "~1.4.1",
+    "jquery": "~1.11.0",
+    "angular": "1.2.25",
+    "angular-sanitize": "1.2.25",
+    "angular-animate": "~1.2.25",
+    "angular-bindonce": "~0.3.1",
+    "ui-bootstrap": "~0.11.0",
+    "bootstrap-sass-official": "~3.1.0",
+    "fontawesome": "~4.2.0"
+  },
+  "devDependencies": {
+  },
+  "resolutions": {
+    "angular": "1.2.25"
+  }
+}

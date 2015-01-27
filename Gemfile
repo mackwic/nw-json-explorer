@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+ruby '2.1.3'
+
+gem 'rake'
+gem 'slim'
+gem 'sass'
+gem 'scss-lint'
+gem 'pry'
+gem 'git'
+gem 'colored'
+gem 'highline'
+gem 'rfc822'
+gem 'rubyzip'
+gem 'aws-sdk-v1'
+
+gem 'sqlite3'

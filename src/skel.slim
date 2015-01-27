@@ -1,0 +1,26 @@
+doctype html
+html.no-js
+
+  head
+    meta charset="utf-8"
+    title
+      ' JSON explorer
+
+/ @_CSS_VENDOR_@
+
+/ @_CSS_SRC_@
+
+  script type="text/javascript"
+    | window.ENV = "@_ENVIRONMENT_@";
+/ @_CONFIG_@
+
+  body ng-app="jsonExplorer"
+    div.root app-view-segment="0" style="height:100%"
+
+
+/ @_JS_VENDOR_@
+
+/ @_JS_SRC_@
+
+/ @_NG_TEMPLATES_@
+
